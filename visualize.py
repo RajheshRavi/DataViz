@@ -10,7 +10,7 @@ def scatterPlot(data):
     #print(x)
     #print(y)
     for i in x:
-        print(x[i])
+        #print(x[i])
         #print(len(i),len(y))
         plt.scatter(x[i], y, label=i)
         plt.legend()
